@@ -12,6 +12,8 @@
 		DD8EF18328FAC43200FB10A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EF18228FAC43200FB10A5 /* ViewController.swift */; };
 		DD8EF18828FAC43700FB10A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8EF18728FAC43700FB10A5 /* Assets.xcassets */; };
 		DD8EF18B28FAC43700FB10A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8EF18928FAC43700FB10A5 /* LaunchScreen.storyboard */; };
+		DD8EF19328FAC94900FB10A5 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DD8EF19228FAC94900FB10A5 /* GoogLeNetPlaces.mlmodel */; };
+		DD8EF19528FAC9C300FB10A5 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EF19428FAC9C300FB10A5 /* UIKitExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DD8EF18728FAC43700FB10A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD8EF18A28FAC43700FB10A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD8EF18C28FAC43700FB10A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8EF19228FAC94900FB10A5 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = SOURCE_ROOT; };
+		DD8EF19428FAC9C300FB10A5 /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		DD8EF17D28FAC43200FB10A5 /* CoreMLBeginning */ = {
 			isa = PBXGroup;
 			children = (
+				DD8EF19228FAC94900FB10A5 /* GoogLeNetPlaces.mlmodel */,
+				DD8EF19428FAC9C300FB10A5 /* UIKitExtensions.swift */,
 				DD8EF17E28FAC43200FB10A5 /* AppDelegate.swift */,
 				DD8EF18028FAC43200FB10A5 /* SceneDelegate.swift */,
 				DD8EF18228FAC43200FB10A5 /* ViewController.swift */,
@@ -137,6 +143,8 @@
 				DD8EF18328FAC43200FB10A5 /* ViewController.swift in Sources */,
 				DD8EF17F28FAC43200FB10A5 /* AppDelegate.swift in Sources */,
 				DD8EF18128FAC43200FB10A5 /* SceneDelegate.swift in Sources */,
+				DD8EF19328FAC94900FB10A5 /* GoogLeNetPlaces.mlmodel in Sources */,
+				DD8EF19528FAC9C300FB10A5 /* UIKitExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
